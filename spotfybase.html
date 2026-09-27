@@ -1,0 +1,181 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spotify</title>
+    <link rel="stylesheet" href="spotfystyle.css" />
+    <link rel="stylesheet" href="utility.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.hugeicons.com/font/hgi-stroke-rounded.css"
+    />
+  </head>
+  <body>
+    <div class="container flex bg-black">
+      <div class="left">
+        <div class="close">
+          <img class="invert" src="./Iconss/cross.svg" alt="" />
+        </div>
+        <div class="homebox bg-grey rounded mg1 pd1">
+          <!--<img src="logo.svg" alt="error">Spotify-->
+          <img class="spotifykalogo" src="./Iconss/Spotify-Logo.wine.svg" alt="error" />
+          <ul>
+            <li><img class="invert" src="./Iconss/home.svg" alt="" />Home</li>
+            <li><img class="invert" src="./Iconss/search.svg" alt="" />Search</li>
+          </ul>
+        </div>
+        <div class="librarybox bg-grey rounded mg1">
+          <div class="libheading">
+            <img class="invert" src="./Iconss/basket.svg" alt="no imgg" />
+            Your Library
+          </div>
+          <div class="songlists">
+            <ul>
+              <!--<li>
+                <i class="hgi hgi-stroke hgi-rounded hgi-music-note-03"></i>
+                <div class="songinfo">
+                  <div class="songname">Song Name</div>
+                  <div class="songartist">Artist</div>
+                </div>
+                <div class="songplaynow">
+                  <span>Play now</span>
+                  <i class="hgi hgi-stroke hgi-rounded hgi-play-circle-02"></i>
+                </div>
+              </li>DUMMY LAYOUT-->
+            </ul>
+          </div>
+
+          <div class="footer">
+            <span>
+              <a href="https://www.spotify.com/in-en/legal/">Legal</a>
+            </span>
+
+            <span>
+              <a href="https://www.spotify.com/in-en/safetyandprivacy/">
+                Safety &amp; Privacy Center
+              </a>
+            </span>
+
+            <span>
+              <a href="https://www.spotify.com/in-en/legal/privacy-policy/">
+                Privacy Policy
+              </a>
+            </span>
+
+            <span>
+              <a href="https://www.spotify.com/in-en/legal/cookies-policy/">
+                Cookies
+              </a>
+            </span>
+
+            <span>
+              <a href="https://www.spotify.com/in-en/legal/privacy-policy/#s3">
+                About Ads
+              </a>
+            </span>
+
+            <span>
+              <a href="https://www.spotify.com/in-en/accessibility/">
+                Accessibility
+              </a>
+            </span>
+          </div>
+        </div>
+      </div>
+
+      <div class="right rounded bg-grey">
+        <div class="header">
+          <div class="nav">
+            <div class="menuicons">
+              <img class="invert hamburgerr" src="./Iconss/hamburger.svg" alt="" />
+              <i class="hgi hgi-stroke hgi-rounded hgi-arrow-left-01"></i>
+              <i class="hgi hgi-stroke hgi-rounded hgi-arrow-right-01"></i>
+            </div>
+          </div>
+          <div class="buttons">
+            <button class="signupbtn">Sign up</button>
+            <button class="loginbtn">Log in</button>
+          </div>
+        </div>
+        <div class="spotify-playlists">
+          <h1>Spotify Playlists</h1>
+          <div class="card-container">
+            <!--
+            <div data-folder="ncs" class="card">
+              <div class="playbtn">
+                <i class="hgi hgi-stroke hgi-rounded hgi-play"></i>
+              </div>
+              <img
+                src="https://i.scdn.co/image/ab67706f000000028be712fb74d92a1116ceff51"
+                alt=""
+              />
+              <h2>90s Love Hits</h2>
+              <p>Let your heart sing all lovesongs</p>
+            </div>
+
+            <div data-folder="cs" class="card">
+              <div class="playbtn">
+                <i class="hgi hgi-stroke hgi-rounded hgi-play"></i>
+              </div>
+              <img
+                src="https://i.scdn.co/image/ab67706f000000028be712fb74d92a1116ceff51"
+                alt=""
+              />
+              <h2>90s Love Hits</h2>
+              <p>Let your heart sing all lovesongs lorem56</p>
+            </div>
+          -->
+          </div>
+
+          <div class="play-bar">
+            <div class="abovebar">
+              <div class="songnamebar"></div>
+
+              <div class="songbuttons">
+                <img id="previous" src="./Iconss/play_back.svg" alt="" />
+                <img id="play" src="./Iconss/playmusic.svg" alt="" />
+                <img id="next" src="./Iconss/play_next.svg" alt="" />
+              </div>
+              <div class="time-and-volume-bar">
+                <div class="songtime"></div>
+                <div class="volume">
+                  <img src="./Iconss/volumebtn.svg" alt="" />
+                  <div class="range">
+                    <input type="range" name="volume" />
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="seekbar">
+              <div class="circle"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="script5.js"></script>
+  </body>
+</html>
+
+<!--
+For inspect element: first click on inspect element , then again right click on particlur element , to see that particular elements code.
+
+To directly select element for inspect : cmd + opt + C
+
+To gets a svg img from a site , then copy the svg code of image from website using inspect. then add this keyword in that svg code ,to make it workful in your code.  xmlns="http://www.w3.org/2000/svg"
+(svg specification)
+
+For icon svgs : Hugeicons website
+
+For any problem in vscode : click cmd+shift+P ,then type.
+For eg:
+Type Workspaces: Add Folder to Workspace and select it.
+Choose the folder you want to add. (to open multiple folders)
+
+one more short cut:: cmd+,
+
+-->
